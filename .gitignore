@@ -1,0 +1,28 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+/config/config.php
+/config/database.php
+
+# Runtime files
+*.log
+/logs/
+/cache/
+/tmp/
+
+# Dependencies and tooling
+/vendor/
+/node_modules/
+/.idea/
+/.vscode/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local database backups (keep the sanitized public seed)
+/*.sql
+/database/*.sql
+!/database/guzel_ayakkabi_public.sql
